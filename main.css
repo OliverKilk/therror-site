@@ -1,218 +1,217 @@
 /* GLOBAL */
 
 body, html {
-	background-image: url(images/diamond_plate.jpg);
-	background-repeat: repeat;
-	background-size: cover;
-	font: 15px/1.5 Arial;
-	margin: 5px 0 0 0;
-	padding: 0;
-	height: 100%;
+    background-image: url(images/diamond_plate.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font: 15px/1.5 Arial;
+    margin: 5px 0 0 0;
+    padding: 0;
+    height: 100%;
 }
 
 .container {
-	width: 88%;
-	height: 100%;
-	margin: auto;
-	overflow: hidden;
-	vertical-align: middle;
+    width: 88%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 li {
-	display: inline-block;
+    display: inline-block;
 }
 
 ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
-	margin-top: 30px;
-	color: white;
+    margin-top: 30px;
+    color: white;
 }
 
 /*HEADER*/
 
 header {
-	background-image: url("images/lahtein_crop.jpg");
-	/*background-image: url(images/lahtein_crop.jpg), 
-					linear-gradient(to bottom, 
+    background-image: url("images/lahtein_crop.jpg");
+    /*background-image: url(images/lahtein_crop.jpg),
+                    linear-gradient(to bottom,
                     rgba(255,255,255, 1), 
                     rgba(0,0,0, 0.75) 80%);*/
-	background-size: cover;
-	width: 75%;
-	padding-top: 40px;
-	padding-bottom: 18%;
-	min-height: 70px;
-	margin:auto;
-	overflow: hidden;
+    background-size: cover;
+    width: 75%;
+    padding-top: 40px;
+    padding-bottom: 18%;
+    min-height: 70px;
+    margin: auto;
+    overflow: hidden;
 }
 
 header a {
-	color: #ffffff;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
 }
 
 header ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header li {
-	float: left;
-	display: inline-block;
-	padding: 0 15px;
-	font-weight: 900;
+    float: left;
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: 900;
 }
 
 #logo {
-	color: white;
-	font-weight: 900;
-	font-size: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
 }
 
 header #therrorlogo {
-	float: left;
+    float: left;
 }
 
 header #therrorlogo #logo {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header nav {
-	float: right;
-	margin: 15px 0px;
+    float: right;
+    margin: 15px 0px;
 }
 
 header .highlight, header .active {
-	border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 header li a:hover {
-	border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 /*HOMEPAGE CONTENT*/
 .content {
-	width: 75%;
-	margin: auto;
-	background-color: #191919;
-	margin-top: 5px;
-	min-height: 400px;
-	background-image: linear-gradient(to bottom, 
-                    rgba(255,255,255, 0.09), 
-                    rgba(255,255,255, 0) 120px);
+    width: 75%;
+    margin: auto;
+    background-color: #191919;
+    margin-top: 5px;
+    min-height: 400px;
+    background-image: linear-gradient(to bottom,
+    rgba(255, 255, 255, 0.09),
+    rgba(255, 255, 255, 0) 120px);
 }
 
 #indexcontent {
-	padding-top: 20px;
-	margin-left: -10px;
+    padding-top: 20px;
+    margin-left: -10px;
 }
 
 /*HOMEPAGE LEFT SIDE*/
 #ytlink {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
 
 .video-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .caption {
-	color: white;
-	font-weight: 750;
-	font-size: 22px;
+    color: white;
+    font-weight: 750;
+    font-size: 22px;
 }
 
 /*HOMEPAGE RIGHT SIDE*/
 #tourdates {
-	float: right;
+    float: right;
 }
 
 .calendar {
-	float: left;
-	display: inline;
-	font-weight: 700;
+    float: left;
+    display: inline;
+    font-weight: 700;
 }
 
 .calendar p {
-	margin: 0;
-	padding-top: 3px;
+    margin: 0;
+    padding-top: 3px;
 }
 
 .calendartop {
-	background-color: #a0a0a0;
-	width: 76px;
-	height: 26px;
-	border-radius: 3px 3px 0px 0px;
-	text-align: center;
-	vertical-align: middle;
-	margin: 0;
+    background-color: #a0a0a0;
+    width: 76px;
+    height: 26px;
+    border-radius: 3px 3px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
 }
 
 .calendarbottom {
-	background-color: #cfcfd0;
-	height:50px; 
-	border-radius: 0px 0px 3px 3px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 50px;
-	margin-top: 0;
+    background-color: #cfcfd0;
+    height: 50px;
+    border-radius: 0px 0px 3px 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top: 0;
 }
 
 .calendarbottom p {
-	padding: 0;
+    padding: 0;
 }
 
 .showlocation p {
-	margin: 3px 0px;
-	color: white;
+    margin: 3px 0px;
+    color: white;
 }
 
 .dates td {
-	vertical-align: top;
-	margin: 0;
+    vertical-align: top;
+    margin: 0;
 }
 
 table {
-	border-spacing: 0.2rem 0.7rem;
+    border-spacing: 0.2rem 0.7rem;
 }
 
 /*FOOTER*/
 footer {
-	padding: 10px 0px;
-	background-color: #6b6b6b;
-	background-size: cover;
-	width: 75%;
-	margin: auto;
-	text-align: center;
+    padding: 10px 0px;
+    background-color: #6b6b6b;
+    background-size: cover;
+    width: 75%;
+    margin: auto;
+    text-align: center;
 }
 
 footer p {
-	margin: 0;
-	padding: 0;
-	color: white;
-	text-shadow:
-    -1px -1px 0 #000,
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
@@ -221,111 +220,115 @@ footer p {
 /*ABOUT PAGE*/
 
 .abouttitles {
-	margin-top: 35px;
-	color: white;
-	font-size: 22px;
+    margin-top: 35px;
+    color: white;
+    font-size: 22px;
 }
 
 .bandimage {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .aboutleft {
-	float: left;
+    float: left;
 }
 
 .picture {
-	max-width: 25%
+    max-width: 25%
 }
 
 .bandmemberlist li {
-	vertical-align: top;
+    vertical-align: top;
 }
 
 .bandmemberlist ul {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .bandmemberlist h3 {
-	font-size: 17px;
-	color: white;
-	margin: 0 0 0 10px;
+    font-size: 17px;
+    color: white;
+    margin: 0 0 0 10px;
 }
 
 .bandmemberlist p {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 
 .membertext {
-	max-width: 70%;
+    max-width: 70%;
 }
 
 .memberlistleft h3, .memberlistleft p {
-	float: right;
-	margin-right: 10px;
+    float: right;
+    margin-right: 10px;
 }
 
 /*MERCH PAGE*/
 
 .merchtitle {
-	margin-bottom: 40px;
-	width: 100%;
+    margin-bottom: 40px;
+    width: 100%;
 }
 
 #merchdisclaimer {
-	float: right;
-	margin: 0;
-	margin-top: -63px;
+    float: right;
+    margin: 0;
+    margin-top: -63px;
 }
 
 .merchcontainer {
-	height: 100%;
+    height: 100%;
 }
 
 .merchandise {
-	width: 100%;
-	height: 100%;
-	float: left;
+    width: 100%;
+    height: 100%;
+    /*
+     * https://mzl.la/2nQv9Ia
+     * https://bit.ly/1xEYMhF
+     */
+    display: flex;
+    flex-direction: row;
 }
 
 .checkboxes {
-	float: left;
-	color: white;
-	padding-right: 15px;
-	border-right: 1px solid grey;
-	height: 99%;
+    color: white;
+    padding-right: 15px;
+    border-right: 1px solid grey;
+    height: 100%;
 }
 
 .checkboxes p {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #items li {
-	background-color: white;
-	margin: 0 0 40px 40px;
-	border: 1px solid grey;
- 	height: 240px;
-	width: 170px;
-	border-radius: 5px;
-	text-align: center;
+    background-color: white;
+    margin: 0 0 40px 40px;
+    border: 1px solid grey;
+    height: 240px;
+    width: 170px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #items .merchimage {
-	height: 60%;
-	width: 100%;
-	margin: 15px 0 10px 0;
+    height: 60%;
+    width: 100%;
+    margin: 15px 0 10px 0;
 }
 
 #items .merchimage img {
-	height: 100%;
+    height: 100%;
 }
 
 #items p {
-	margin: 0;
-	padding: 0;
-	font-weight: 900px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900px;
 }
 
 .shirt {
@@ -334,134 +337,134 @@ footer p {
 
 /* Media Queries */
 
-@media(max-width: 768px) {
-	header #therrorlogo,
-	header li,
-	header nav, 
-	#ytlink, 
-	#tourdates, 
-	.calendar {
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
+@media (max-width: 768px) {
+    header #therrorlogo,
+    header li,
+    header nav,
+    #ytlink,
+    #tourdates,
+    .calendar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
 
-	#logo {
-		font-size: 40px;
-	}
+    #logo {
+        font-size: 40px;
+    }
 
-	body {
-		margin: 0;
-	}
+    body {
+        margin: 0;
+    }
 
-	header li {
-		margin-top: 10px;
-	}
+    header li {
+        margin-top: 10px;
+    }
 
-	header #therrorlogo {
-		margin-bottom: 20px;
-	}
+    header #therrorlogo {
+        margin-bottom: 20px;
+    }
 
-	header, .content, footer {
-		width: 100%;
-	}
+    header, .content, footer {
+        width: 100%;
+    }
 
-	.calendar {
-		margin: 0;
-		padding: 0;
-	}
+    .calendar {
+        margin: 0;
+        padding: 0;
+    }
 
-	.showlocation {
-		padding-left: 15px;
-	}
+    .showlocation {
+        padding-left: 15px;
+    }
 }
 
-@media(max-width: 1380px) {
-	header li {
-		padding: 0px 10px;
-	}
+@media (max-width: 1380px) {
+    header li {
+        padding: 0px 10px;
+    }
 
-	header a {
-		font-size: 20px;
-	}
+    header a {
+        font-size: 20px;
+    }
 
-	#logo {
-		font-size: 35px;
-	}
+    #logo {
+        font-size: 35px;
+    }
 
-	#therrorlogo {
-		margin-top: 4px;
-	}
+    #therrorlogo {
+        margin-top: 4px;
+    }
 }
 
-@media(max-width: 1245px) {
-	header li {
-		padding: 0px 8px;
-	}
+@media (max-width: 1245px) {
+    header li {
+        padding: 0px 8px;
+    }
 
-	header a {
-		font-size: 19px;
-	}
+    header a {
+        font-size: 19px;
+    }
 
-	#logo {
-		font-size: 32px;
-	}
+    #logo {
+        font-size: 32px;
+    }
 
-	#therrorlogo {
-		margin-top: 5px;
-	}
+    #therrorlogo {
+        margin-top: 5px;
+    }
 }
 
-@media(max-width: 1084px) {
-	header li {
-		padding: 0px 6px;
-	}
+@media (max-width: 1084px) {
+    header li {
+        padding: 0px 6px;
+    }
 
-	header a {
-		font-size: 17px;
-	}
+    header a {
+        font-size: 17px;
+    }
 
-	#logo {
-		font-size: 29px;
-	}
+    #logo {
+        font-size: 29px;
+    }
 
-	#therrorlogo {
-		margin-top: 5px;
-	}
+    #therrorlogo {
+        margin-top: 5px;
+    }
 }
 
-@media(max-width: 965px) {
-	header li {
-		padding: 0px 5px;
-	}
+@media (max-width: 965px) {
+    header li {
+        padding: 0px 5px;
+    }
 
-	header a {
-		font-size: 15px;
-	}
+    header a {
+        font-size: 15px;
+    }
 
-	#logo {
-		font-size: 26px;
-	}
+    #logo {
+        font-size: 26px;
+    }
 
-	#therrorlogo {
-		margin-top: 5px;
-	}
+    #therrorlogo {
+        margin-top: 5px;
+    }
 }
 
-@media(max-width: 843px) {
-	header li {
-		padding: 0px 4px;
-	}
+@media (max-width: 843px) {
+    header li {
+        padding: 0px 4px;
+    }
 
-	header a {
-		font-size: 14px;
-	}
+    header a {
+        font-size: 14px;
+    }
 
-	#logo {
-		font-size: 25px;
-	}
+    #logo {
+        font-size: 25px;
+    }
 
-	#therrorlogo {
-		margin-top: 7px;
-	}
+    #therrorlogo {
+        margin-top: 7px;
+    }
 }
